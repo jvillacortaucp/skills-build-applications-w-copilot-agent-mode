@@ -11,10 +11,12 @@ class TeamSerializer(serializers.ModelSerializer):
         model = Team
         fields = '__all__'
 
+
 class ActivitySerializer(serializers.ModelSerializer):
     class Meta:
         model = Activity
         fields = '__all__'
+
 
 class LeaderboardSerializer(serializers.ModelSerializer):
     class Meta:
